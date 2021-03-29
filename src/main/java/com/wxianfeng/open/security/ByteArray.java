@@ -57,13 +57,13 @@ public class ByteArray {
             data[8 + 1 + appKey.length() + 1 + i] = (byte) outerId.charAt(i);
         }
 
-        String s = Base64.encodeToString(data, Base64.DEFAULT);
+        String s = MyBase64.encodeToString(data, MyBase64.DEFAULT);
 
         System.out.println(s);
 
         // 反解
 
-        byte[] data1 = Base64.decode(s, Base64.DEFAULT);
+        byte[] data1 = MyBase64.decode(s, MyBase64.DEFAULT);
         ByteBuffer dataBuf = ByteBuffer.wrap(data1);
         int t1 = dataBuf.getInt();
         System.out.println(t1);

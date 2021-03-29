@@ -46,11 +46,11 @@ public class ByteBufferTest {
         // 写入 action 数据
         data.put(action.getBytes());
 
-        String s = Base64.encodeToString(data.array(), Base64.DEFAULT);
+        String s = MyBase64.encodeToString(data.array(), MyBase64.DEFAULT);
         System.out.println(s);
 
         // 反解
-        byte[] deData = Base64.decode(s, Base64.DEFAULT);
+        byte[] deData = MyBase64.decode(s, MyBase64.DEFAULT);
         ByteBuffer deBuf = ByteBuffer.wrap(deData);
 
         // 读出 token 创建时间

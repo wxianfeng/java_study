@@ -52,7 +52,7 @@ public class ZipStr {
 
         System.out.println(s.length());
         System.out.println(Base64.getEncoder().encode(s.getBytes()));
-        System.out.println(com.wxianfeng.open.security.Base64.encode(s.getBytes(), 0));
+        System.out.println(MyBase64.encode(s.getBytes(), 0));
         System.out.println(com.length());
         System.out.println(Base64.getEncoder().encode(com.getBytes()));
     }

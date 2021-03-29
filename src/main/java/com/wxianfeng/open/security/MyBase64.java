@@ -16,7 +16,7 @@ package com.wxianfeng.open.security;
 
 import java.io.UnsupportedEncodingException;
 
-public class Base64 {
+public class MyBase64 {
     /**
      * Default values for encoder/decoder flags.
      */
@@ -734,6 +734,6 @@ public class Base64 {
         }
     }
 
-    private Base64() { }   // don't instantiate
+    private MyBase64() { }   // don't instantiate
 }
 
