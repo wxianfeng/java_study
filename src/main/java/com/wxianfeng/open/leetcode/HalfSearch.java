@@ -13,13 +13,14 @@ class HalfSearch {
         int[] arr = {1, 2, 3, 4, 5, 6, 7, 8};
         int index = halfSearch(arr, 8);
         System.out.println(index);
-
     }
+
     public static int halfSearch(int[] arr, int target) {
         int max = arr.length - 1;
         int min = 0;
-        int mid = (max + min) / 2;
+        // int mid = (max + min) / 2;
         while(max >= min) {
+            int mid = (max + min) / 2;
             if(target > arr[mid]) {
                 min = mid + 1;
             } else if(target < arr[mid]) {
@@ -27,7 +28,7 @@ class HalfSearch {
             } else {
                 return mid;
             }
-            mid = (max + min) / 2;
+            // mid = (max + min) / 2;
         }
         return -1;
     }

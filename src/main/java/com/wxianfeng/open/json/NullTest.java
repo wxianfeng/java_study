@@ -8,6 +8,7 @@ import com.alibaba.fastjson.JSON;
  */
 public class NullTest {
     public static void main(String[] args) {
+        // null
         System.out.println(JSON.toJSONString(null));
     }
 }
