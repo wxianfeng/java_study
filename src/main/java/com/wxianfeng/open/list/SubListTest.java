@@ -19,5 +19,7 @@ public class SubListTest {
         System.out.println(list);
         // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
         System.out.println(list.subList(0, 10));
+
+        System.out.println(list.subList(0, Integer.min(20, list.size())));
     }
 }
