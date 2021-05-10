@@ -1,4 +1,4 @@
-package com.wxianfeng.open.str;
+package com.wxianfeng.open.string;
 
 /**
  * @author haomiao.wxf

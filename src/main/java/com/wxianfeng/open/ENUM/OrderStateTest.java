@@ -5,6 +5,6 @@ package com.wxianfeng.open.ENUM;
  */
 public class OrderStateTest {
     public static void main(String[] args) {
-        System.out.println(OrderState.valueOf(OrderState.FINISHED.toString()));
+        System.out.println(OrderState.valueOf(OrderState.FINISHED.name()).getDisplayName());
     }
 }
