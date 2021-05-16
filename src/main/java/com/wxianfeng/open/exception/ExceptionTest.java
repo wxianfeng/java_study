@@ -9,6 +9,10 @@ public class ExceptionTest {
         throw new RuntimeException("xx");
     }
 
+    public void test1() {
+        // throw new Exception("bb");
+    }
+
     public static void main(String[] args) {
         new ExceptionTest().test();
     }

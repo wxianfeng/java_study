@@ -12,6 +12,13 @@ public class Test {
         //System.out.println(Integer.toBinaryString(a));
 
          System.out.println(hammingWeight(a));
+
+        String s1 = "Programming";
+        String s2 = new String("Programming");
+        String s3 = "Programming";
+
+        System.out.println(s1 == s2);
+        System.out.println(s1 == s3);
     }
 
     public static int hammingWeight(int n) {
