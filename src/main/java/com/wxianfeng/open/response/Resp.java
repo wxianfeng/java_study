@@ -1,3 +1,5 @@
+package com.wxianfeng.open.response;
+
 /**
  * Created by haomiao on 12/19/16.
  */
