@@ -1,4 +1,4 @@
-package com.wxianfeng.open.bean;
+package com.wxianfeng.open.bean.copy;
 
 import org.springframework.beans.BeanUtils;
 
