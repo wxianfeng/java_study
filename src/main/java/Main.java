@@ -99,6 +99,8 @@ public class Main {
         if ((byte) 1 == (byte) 1) {
             System.out.println(">>>>>>>>>>>>>>>>>> true");
         }
+
+        System.out.println(System.currentTimeMillis());
     }
 
 }
