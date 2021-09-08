@@ -15,5 +15,9 @@ public class BeanTest {
         BeanUtils.copyProperties(aMore, a);
 
         System.out.println(a);
+
+        // Exception in thread "main" java.lang.IllegalArgumentException: Source must not be null
+        BeanUtils.copyProperties( null, a);
+        System.out.println(a);
     }
 }
