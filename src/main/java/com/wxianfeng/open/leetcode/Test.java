@@ -1,5 +1,7 @@
 package com.wxianfeng.open.leetcode;
 
+import java.math.BigDecimal;
+
 /**
  * @author haomiao.wxf
  * @date 2021/01/26 2:32 AM
@@ -19,6 +21,9 @@ public class Test {
 
         System.out.println(s1 == s2);
         System.out.println(s1 == s3);
+
+        System.out.println(new BigDecimal(100));
+        System.out.println(new BigDecimal("100.0"));
     }
 
     public static int hammingWeight(int n) {
