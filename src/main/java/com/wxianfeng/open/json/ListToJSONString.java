@@ -39,6 +39,9 @@ public class ListToJSONString {
         // json string 转 List
         // https://www.cnblogs.com/qingmuchuanqi48/p/11622399.html
         List<Person> personList = JSON.parseArray(s, Person.class);
+
+        // Set<Person> personList1 = JSON.parseArray(s, new TypeReference<Set<Person>>() {});
+
         personList.forEach(person -> {
             String txt = person.getName() + " " + person.getRank();
             //a 1

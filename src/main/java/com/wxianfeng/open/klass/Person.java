@@ -9,6 +9,7 @@ import lombok.ToString;
 @ToString
 public class Person {
     private String name;
+    int age;
 
     public String getName() {
         return name;
