@@ -14,5 +14,15 @@ public class Man {
 
         // false
         System.out.println(NumberUtils.isDigits("-1"));
+
+
+        // 拆箱 NPE
+        Integer a = null;
+        // int b = a;
+
+        Person person = null;
+        if (person == null || person.getAge() == null || person.getAge() == 0L) {
+            System.out.println("xxx");
+        }
     }
 }

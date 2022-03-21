@@ -20,5 +20,13 @@ public class FinalTest {
 
         FinalTest finalTest1 = new FinalTest("imToken2");
         System.out.println(finalTest1.token);
+
+        final int i = 1;
+        increment(i);
+    }
+
+    public static void increment(int i) {
+        i++;
+        System.out.println(i);
     }
 }

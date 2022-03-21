@@ -28,5 +28,7 @@ public class GenericTokenParserTest {
         };
         GenericTokenParser parser = new GenericTokenParser("${", "}", handler);
         System.out.println("************" + parser.parse("用户：${name}，你的密码是:${pwd}"));
+
+        System.out.println("************" + parser.parse("用户，你的密码是:"));
     }
 }
