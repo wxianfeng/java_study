@@ -1,5 +1,7 @@
 package com.wxianfeng.open.base;
 
+import java.util.Arrays;
+
 /**
  * @author wang.fl1429@gmail.com
  * @date 2021/09/12 4:58 PM
@@ -33,5 +35,15 @@ public class ByteTest {
         System.out.println(split.length);
 
         System.out.println("aaa" + null);
+
+        String hanzi = "汉子";
+
+        String py = "hz";
+
+        System.out.println(Arrays.toString(hanzi.getBytes()));
+
+        System.out.println(hanzi.getBytes().length);
+
+        System.out.println(py.getBytes().length);
     }
 }
